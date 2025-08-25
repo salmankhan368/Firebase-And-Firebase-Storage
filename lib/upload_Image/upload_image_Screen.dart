@@ -56,7 +56,9 @@ class _UploadImageScreenState extends State<UploadImageScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             InkWell(
-              onTap: () {},
+              onTap: () {
+                getGalleryImage();
+              },
               child: Container(
                 height: 200,
                 width: 200,
