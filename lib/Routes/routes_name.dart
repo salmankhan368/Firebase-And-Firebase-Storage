@@ -8,4 +8,5 @@ class RoutesName {
   static const String add = ' add_post';
   static const String firestore = 'firestore_screen';
   static const String fireData = 'firestore_data';
+  static const String image = 'upload_image_Screen';
 }

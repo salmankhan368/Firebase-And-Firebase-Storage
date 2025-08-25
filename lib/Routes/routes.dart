@@ -9,6 +9,7 @@ import 'package:project_firebase/auth/login_with_phone_number.dart';
 
 import 'package:project_firebase/posts/Post_screen.dart';
 import 'package:project_firebase/posts/add_post_screen.dart';
+import 'package:project_firebase/upload_Image/upload_image_Screen.dart';
 
 class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -44,6 +45,10 @@ class Routes {
       case RoutesName.fireData:
         return MaterialPageRoute(
           builder: (BuildContext context) => FireStoreData(),
+        );
+      case RoutesName.image:
+        return MaterialPageRoute(
+          builder: (BuildContext context) => UploadImageScreen(),
         );
 
       default:

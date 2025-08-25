@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      initialRoute: RoutesName.firestore,
+      initialRoute: RoutesName.image,
       onGenerateRoute: Routes.generateRoute,
     );
   }

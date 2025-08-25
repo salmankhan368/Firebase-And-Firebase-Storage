@@ -11,7 +11,7 @@ class SplashServices {
     if (user != null) {
       Timer(
         Duration(seconds: 3),
-        () => Navigator.pushNamed(context, RoutesName.firestore),
+        () => Navigator.pushNamed(context, RoutesName.image),
       );
     } else {
       Timer(
